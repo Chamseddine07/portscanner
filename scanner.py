@@ -12,7 +12,7 @@ PORT_NAMES = {
 }
 
 target = input("Enter IP or hostname to scan: ")
-ip = socket.gethostbyname(target)  # hostname resolution
+ip = socket.gethostbyname(target)  
 print(f"Scanning {target} ({ip})\n")
 
 for port in PORT_NAMES:
